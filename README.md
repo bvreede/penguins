@@ -1,6 +1,6 @@
 # Readme <a href='https://osf.io/zcvbs/'><img src='worcs_icon.png' align="right" height="139" /></a>
 
-<!-- Please add a brief introduction to explain what the project is about    -->
+This is a project about penguins, which I did many measurements on!
 
 ## Where do I start?
 
