@@ -1,9 +1,9 @@
 ---
-title             : "The title"
+title             : "Awesome things you wanted to know about penguins"
 shorttitle        : "Title"
 
 author: 
-  - name          : "First Author"
+  - name          : "Barbara Vreede"
     affiliation   : "1"
     corresponding : yes    # Define only one corresponding author
     address       : "Postal address"
@@ -65,7 +65,7 @@ library("worcs")
 # and end that file with either open_data(yourdata), or closed_data(yourdata).
 # Then, uncomment the line below to load the original or synthetic data
 # (whichever is available), to allow anyone to reproduce your code:
-# load_data()
+load_data()
 r_refs("r-references.bib")
 
 ```
@@ -88,6 +88,8 @@ We report how we determined our sample size, all data exclusions (if any), all m
 
 ## Participants
 
+We used `r nrow(data)` penguins in this study.
+
 ## Material
 
 ## Procedure
@@ -97,6 +99,14 @@ We used `r cite_r("r-references.bib")` for all our analyses.
 
 
 # Results
+```{r}
+plot(x = data[,"bill_length_mm"],
+     y = data[,"bill_depth_mm"],
+     xlab= "bill lenght",
+     ylab = "bill depth")
+```
+
+
 
 # Discussion
 
