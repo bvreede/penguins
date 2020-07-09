@@ -1,3 +1,10 @@
 worcs_version: 0.1.3
 creator: barbaramaria
 entry_point: manuscript/manuscript.Rmd
+checksums:
+  data.csv: c8d8a763c5fc232038a730756a52169f
+  synthetic_data.csv: 1dbac94c4030c025b2819e28cd91f7f1
+data:
+  data.csv:
+    synthetic: synthetic_data.csv
+    codebook: codebook.Rmd
