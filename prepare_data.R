@@ -4,3 +4,8 @@
 # to store the data.
 
 library(worcs)
+install.packages("remotes")
+remotes::install_github("allisonhorst/palmerpenguins")
+data <- palmerpenguins::penguins
+
+closed_data(data)
